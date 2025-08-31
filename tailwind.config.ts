@@ -26,12 +26,21 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					light: 'hsl(var(--primary-light))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					light: 'hsl(var(--secondary-light))'
 				},
+				// Mood-specific colors
+				'mood-happy': 'hsl(var(--accent-happy))',
+				'mood-sad': 'hsl(var(--accent-sad))',
+				'mood-stressed': 'hsl(var(--accent-stressed))',
+				'mood-calm': 'hsl(var(--accent-calm))',
+				'mood-neutral': 'hsl(var(--accent-neutral))',
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
